@@ -1,0 +1,86 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+.header-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2b00ff;
+  padding: 20px;
+}
+
+.links-con {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  color: #ff0000;
+
+  font-size: 25px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.title-con {
+
+  display: flex;
+  justify-content: center;
+}
+.gallery-title {
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.gallery-con {
+    width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  border: #e371a3 2px solid;
+  margin: 5px;
+  border-radius: 10px;
+
+}
+
+.image {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+body { background-image: url(deepfried\ bamma_1715729856702.jpg);
+}
+
+@font-face{
+  font-family: SkibidiToilet ;
+  src: url(IHateComicSans.ttf);
+} 
+
+p { font-family: SkibidiToilet;
+  
+  }
+
+@font-face
+{font-family: Sigma;
+
+src: url(EgyptianOutline-Regular.ttf);
+} 
+
+
+h1 {font-family: Sigma;}
+
+.image.image:hover {
+-ms-transform: scale(1.5);
+-webkit-transform: scale (1.5);
+transform:scale(1.5);}
